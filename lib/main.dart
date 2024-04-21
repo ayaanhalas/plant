@@ -14,14 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'onboardingscreenState',
       home: const OnboardingScreeen(),
-
       debugShowCheckedModeBanner: false,
-
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      // home: const MyHomePage(title: 'onboardingscreenState'),
     );
   }
 }
